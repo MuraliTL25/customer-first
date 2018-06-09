@@ -1,2 +1,1 @@
-
-version 1 beta1 added
+v1 text
