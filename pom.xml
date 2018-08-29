@@ -2,11 +2,19 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.example</groupId>
-  <artifactId>jpademo</artifactId>
+      <groupId>com.org.customer</groupId>
+      <artifactId>customer</artifactId>
+      <version>1.0.0</version>
+      <scope>test</scope>
+ <dependencies>
+    <dependency>
+    <groupId>com.org.customer</groupId>
+  <artifactId>customer</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
-
+   </dependency>
+   </dependencies>
+ 
   <scm>
       <connection>scm:git:ssh://my.git.server.internal/home/git/jpademo</connection>
       <developerConnection>scm:git:ssh://my.git.server.internal/home/git/jpademo</developerConnection>
@@ -83,14 +91,6 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>com.org.customer</groupId>
-      <artifactId>customer</artifactId>
-      <version>1.0.0</version>
-      <scope>test</scope>
-    </dependency>
-   </dependencies>
  
  
 </project>
