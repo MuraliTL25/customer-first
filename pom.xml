@@ -5,8 +5,8 @@
       <groupId>com.org.customer</groupId>
       <artifactId>customer</artifactId>
       <version>1.0.0</version>
-      <scope>test</scope>
- <dependencies>
+
+  <dependencies>
     <dependency>
     <groupId>com.org.customer</groupId>
   <artifactId>customer</artifactId>
